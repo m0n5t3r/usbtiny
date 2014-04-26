@@ -1,0 +1,14 @@
+#USBtinyISP v1, slightly modified
+
+This is my rendition of [USBtinyISP](https://learn.adafruit.com/usbtinyisp/), with minor changes:
+
+* open file formats (gEDA)
+* lower valued resistors on the data lines (seems to improve reliability quite a bit)
+* only a 6 pin connector
+
+If you build this, make sure you use a good cable, the kind that have ferrite beads on the ends; if you can't find one already made, your favourite electronics dealer will generally have one woth the right diameter for your cable. 
+
+I really can't stress this enough, for me it's made the difference between a device with a personality[1] and rock solid connections.
+
+
+[1] worked fine for about 2-3 minutes, then disconnected, then there was no response whatsoever when plugging it in, then after maybe an hour "unable to enumerate", and after 1.5-2h it worked again
